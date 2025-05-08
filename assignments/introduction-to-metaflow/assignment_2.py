@@ -1,4 +1,4 @@
-"""Assignment 2.
+"""Assignment_2.
 
 Create a simple flow that tracks a sequence of numerical operations. In the first step,
 initialize an artifact with a number. In each subsequent step, update the artifact by
@@ -9,7 +9,7 @@ values and calculate both the sum and average.
 from metaflow import FlowSpec, step
 
 
-class Introduction(FlowSpec):
+class Assignment2(FlowSpec):
     """A flow for assignment 2."""
 
     @step
@@ -50,4 +50,4 @@ class Introduction(FlowSpec):
 
 
 if __name__ == "__main__":
-    Introduction()
+    Assignment2()
